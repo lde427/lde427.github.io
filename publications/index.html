@@ -76,7 +76,72 @@
       <h3 class="bibliography-year">2025</h3>
     </div>
     <div class="col-sm-11 p-0">
-      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0"> <!-- 2025라는 bibliography 섹션의 시작 부분이고 해당 <ol> ~~~ </ol> 사이에 각각 새로운 저널 관련 <li> ~~~ </li> 추가하면됨.-->
+  <div class="col-sm-1 p-0 abbr">
+
+    
+        <a class="badge font-weight-bold light-green darken-1 align-middle" style="width: 65px;" href="https://lde427.github.io/publications/" target="_blank">
+          TBD
+        </a>
+
+    
+  </div>
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+    
+    <div id="VPD" class="col p-0">
+      <h5 class="title mb-0">Generative Model-driven Design Optimization to Address Small Data Challenges in Manufacturing (tentative title)</h5>
+      <div class="author">
+                
+                  <nobr><em>Dongeon Lee†</em>,</nobr>
+
+                  and
+              
+                  <nobr><a href="https://scholar.google.com/citations?user=tYU_Cz0AAAAJ&hl=en" target="_blank">Namwoo Kang*</a>.</nobr>
+        
+      </div>
+
+      <div>
+        <p class="periodical font-italic">
+          
+            <!--In Proceedings of the Forty-First IEEE/CVF Conference on Computer Vision and Pattern Recognition. Oral presentation
+          
+            2024.-->
+
+            In preparation
+          
+        </p>
+      </div>
+    
+      <div class="col p-0">
+        
+          <!--<a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#VPD-abstract" role="button" aria-expanded="false" aria-controls="VPD-abstract">Abstract</a>
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/2312.03052" target="_blank">arXiv</a>
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://visual-program-distillation.github.io/" target="_blank">Website</a>
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.youtube.com/watch?v=mofEOquxPjQ&amp;ab_channel=YushiHu" target="_blank">Video</a>
+
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/obfuscation_benchmark/obfuscation_benchmark.pdf" target="_blank">PDF</a>-->
+        
+      </div>
+    
+      
+      <div class="col mt-2 p-0">
+        <div id="VPD-abstract" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            Solving complex visual tasks such as "Who invented the musical instrument on the right?" involves a composition of skills: understanding space, recognizing instruments, and also retrieving prior knowledge. Recent work shows promise by decomposing such tasks using a large language model (LLM) into an executable program that invokes specialized vision models. However, generated programs are error-prone: they omit necessary steps, include spurious ones, and are unable to recover when the specialized models give incorrect outputs. Moreover, they require loading multiple models, incurring high latency and computation costs. We propose Visual Program Distillation (VPD), an instruction tuning framework that produces a vision-language model (VLM) capable of solving complex visual tasks with a single forward pass. VPD distills the reasoning ability of LLMs by using them to sample multiple candidate programs, which are then executed and verified to identify a correct one. It translates each correct program into a language description of the reasoning steps, which are then distilled into a VLM. Extensive experiments show that VPD improves the VLM’s ability to count, understand spatial relations, and reason compositionally. Our VPD-trained PaLI-X outperforms all prior VLMs, achieving state-of-the-art performance across complex vision tasks, including MMBench, OK-VQA, A-OKVQA, TallyQA, POPE, and Hateful Memes. An evaluation with human annotators also confirms that VPD improves model response factuality and consistency. Finally, experiments on content moderation demonstrate that VPD is also helpful for adaptation to real-world applications with limited data.
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<!-- 새로운 저널 추가는 <ol class="bibliography">과 </ol>의 사이에서의 <li> ~~~ </li> 부분을 추가하면 됨.-->
+<li><div class="row m-0 mt-3 p-0">
   <div class="col-sm-1 p-0 abbr">
 
     
@@ -144,7 +209,7 @@
     </div>
   </div>
 </div>
-</li></ol>
+</li></ol> <!-- 새로운 저널 추가 <li> ~~~ </li> 끝 부분-->
     </div>
   </div>
 
