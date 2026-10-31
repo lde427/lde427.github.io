@@ -14253,26 +14253,26 @@ progress::-moz-progress-bar,
 
 /* SDL / KAIST Scroll Progress Bar */
 #progress {
-  color: #1C85C7;
+  color: #005FAC;
 }
 
 #progress::-webkit-progress-value {
-  background-color: #1C85C7 !important;
+  background-color: #005FAC !important;
 }
 
 #progress::-moz-progress-bar {
-  background-color: #1C85C7 !important;
+  background-color: #005FAC !important;
 }
 
 #progress .progress-bar {
-  background-color: #1C85C7 !important;
+  background-color: #005FAC !important;
 }
 
 /* Improve hyperlink readability */
 .content p a,
 .news p a {
   color: #01438F !important;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .content p a:hover,
