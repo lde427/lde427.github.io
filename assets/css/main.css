@@ -14273,7 +14273,7 @@ progress::-moz-progress-bar,
 .news p a {
   color: #01438F !important;
   font-weight: 400;
-  -webkit-text-stroke: 0.20px currentColor;
+  -webkit-text-stroke: 0.25px currentColor;
 }
 
 .content p a:hover,
