@@ -14198,7 +14198,6 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 .hljs-strong { font-weight: bold; }
 
 
-
 /* =======================================
    SDL / KAIST Blue Theme
    ======================================= */
@@ -14252,6 +14251,7 @@ progress::-moz-progress-bar,
   background-color: var(--brand-sky) !important;
 }
 
+/* SDL / KAIST Scroll Progress Bar */
 #progress {
   color: #1C85C7;
 }
@@ -14266,5 +14266,18 @@ progress::-moz-progress-bar,
 
 #progress .progress-bar {
   background-color: #1C85C7 !important;
+}
+
+/* Improve hyperlink readability */
+.content p a,
+.news p a {
+  color: #01438F !important;
+  font-weight: 500;
+}
+
+.content p a:hover,
+.news p a:hover {
+  color: #005FAC !important;
+  text-decoration: underline;
 }
 
