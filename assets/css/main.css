@@ -14196,3 +14196,58 @@ pre, code { font-family: 'Source Code Pro', monospace; font-weight: normal; font
 .hljs-emphasis { font-style: italic; }
 
 .hljs-strong { font-weight: bold; }
+
+
+
+/* =======================================
+   SDL / KAIST Blue Theme
+   ======================================= */
+
+:root {
+  --brand-navy: #01438F;
+  --brand-blue: #005FAC;
+  --brand-sky: #1C85C7;
+}
+
+/* Links and text highlights */
+a, .news a, .cv h3, nobr > em {
+  color: var(--brand-blue);
+}
+
+a:hover, .news a:hover, footer a:hover {
+  color: var(--brand-navy);
+}
+
+/* Active navigation menu */
+.navbar-active a {
+  color: var(--brand-navy) !important;
+}
+
+/* News and publication badges */
+.badge.light-green.darken-1 {
+  background-color: var(--brand-navy) !important;
+  color: #fff !important;
+}
+
+/* Publication badge hover */
+.bibliography .abbr a.light-green.darken-1:hover {
+  background-color: var(--brand-blue) !important;
+  color: #fff !important;
+}
+
+/* Other highlights */
+.badge-notify,
+.project-card .github-icon .stars {
+  background-color: var(--brand-navy) !important;
+}
+
+/* Scroll progress indicator */
+progress {
+  color: var(--brand-sky);
+}
+
+progress::-webkit-progress-value,
+progress::-moz-progress-bar,
+.progress-bar {
+  background-color: var(--brand-sky) !important;
+}
