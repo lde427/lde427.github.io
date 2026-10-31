@@ -14251,3 +14251,20 @@ progress::-moz-progress-bar,
 .progress-bar {
   background-color: var(--brand-sky) !important;
 }
+
+#progress {
+  color: #1C85C7;
+}
+
+#progress::-webkit-progress-value {
+  background-color: #1C85C7 !important;
+}
+
+#progress::-moz-progress-bar {
+  background-color: #1C85C7 !important;
+}
+
+#progress .progress-bar {
+  background-color: #1C85C7 !important;
+}
+
